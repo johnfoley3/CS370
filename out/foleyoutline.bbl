@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{Cao:2010:MDA:1877725.1877730}
+Lan Cao, Balasubramaniam Ramesh, and Tarek Abdel-Hamid.
+\newblock Modeling dynamics in agile software development.
+\newblock {\em ACM Trans. Manage. Inf. Syst.}, 1(1):5:1--5:26, December 2010.
+
+\bibitem{Janus:2012:TCA:2237796.2237803}
+Andr{\'e} Janus.
+\newblock Towards a common agile software development model (asdm).
+\newblock {\em SIGSOFT Softw. Eng. Notes}, 37(4):1--8, July 2012.
+
+\bibitem{Ktata:2009:ADI:1557626.1557636}
+Oualid Ktata and Ghislain L{\'e}vesque.
+\newblock Agile development: Issues and avenues requiring a substantial
+  enhancement of the business perspective in large projects.
+\newblock In {\em Proceedings of the 2Nd Canadian Conference on Computer
+  Science and Software Engineering}, C3S2E '09, pages 59--66, New York, NY,
+  USA, 2009. ACM.
+
+\bibitem{Sletholt:2011:LRA:1985782.1985784}
+Magnus~Thorstein Sletholt, Jo~Hannay, Dietmar Pfahl, Hans~Christian Benestad,
+  and Hans~Petter Langtangen.
+\newblock A literature review of agile practices and their effects in
+  scientific software development.
+\newblock In {\em Proceedings of the 4th International Workshop on Software
+  Engineering for Computational Science and Engineering}, SECSE '11, pages
+  1--9, New York, NY, USA, 2011. ACM.
+
+\bibitem{Stettina:2011:NNE:2038476.2038509}
+Christoph~Johann Stettina and Werner Heijstek.
+\newblock Necessary and neglected?: An empirical study of internal
+  documentation in agile software development teams.
+\newblock In {\em Proceedings of the 29th ACM International Conference on
+  Design of Communication}, SIGDOC '11, pages 159--166, New York, NY, USA,
+  2011. ACM.
+
+\end{thebibliography}
