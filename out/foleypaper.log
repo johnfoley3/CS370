@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 APR 2014 01:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 APR 2014 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -142,84 +142,37 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-
-LaTeX Warning: Citation `Ktata:2009:ADI:1557626.1557636' on page 2 undefined on
- input line 37.
-
 [2]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: Citation `Janus:2012:TCA:2237796.2237803' on page 3 undefined on
- input line 39.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-LaTeX Warning: Citation `Ktata:2009:ADI:1557626.1557636' on page 3 undefined on
- input line 41.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[3]
+ [3]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: Citation `Janus:2012:TCA:2237796.2237803' on page 4 undefined on
- input line 51.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-LaTeX Warning: Citation `Ktata:2009:ADI:1557626.1557636' on page 4 undefined on
- input line 55.
-
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-LaTeX Warning: Citation `Stettina:2011:NNE:2038476.2038509' on page 4 undefined
- on input line 57.
-
-
-LaTeX Warning: Citation `Stettina:2011:NNE:2038476.2038509' on page 4 undefined
- on input line 57.
-
-[4]
+ [4]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-
-LaTeX Warning: Citation `Sletholt:2011:LRA:1985782.1985784' on page 5 undefined
- on input line 67.
-
-[5]
-
-LaTeX Warning: Citation `Ktata:2009:ADI:1557626.1557636' on page 6 undefined on
- input line 75.
-
-
-LaTeX Warning: Citation `Sletholt:2011:LRA:1985782.1985784' on page 6 undefined
- on input line 79.
-
-[6]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
+ [5] [6]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -230,30 +183,24 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  (/Users/johnfoley/CS370/out/foleypaper.bbl [7]) [8]
-(/Users/johnfoley/CS370/out/foleypaper.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(/Users/johnfoley/CS370/out/foleypaper.aux) ) 
 Here is how much of TeX's memory you used:
- 811 strings out of 493315
- 11685 string characters out of 6137904
- 71807 words of memory out of 5000000
- 4306 multiletter control sequences out of 15000+600000
- 8849 words of font info for 31 fonts, out of 8000000 for 9000
+ 810 strings out of 493315
+ 11667 string characters out of 6137904
+ 71819 words of memory out of 5000000
+ 4305 multiletter control sequences out of 15000+600000
+ 8541 words of font info for 30 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  24i,6n,32p,1432b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/johnfoley/CS370/out/foleypaper.pdf (8 pages, 100629 by
-tes).
+</usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /Users/johnfoley/CS370/out/foleypaper.pdf (8 pages, 99756 byt
+es).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
