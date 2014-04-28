@@ -3,6 +3,7 @@
 \usepackage{setspace}
 \usepackage[letterpaper,margin=1in]{geometry}
 \usepackage[parfill]{parskip}
+\newcommand{\tab}{\hspace*{2em}}
 
 \title{The Advantages of Agile Development}
 \author{John Foley}
@@ -23,70 +24,71 @@
  methodologies such as Waterfall. 
 \end{abstract}
 
+\pagebreak
+
+\begin{doublespace}
+
+\section{Introduction}
+
+\tab Agile Methodologies have taken the software engineering industry by storm, especially in this modern era of internet technology and application production. The Agile Manifesto, published in 2001, introduced many terms and ideas to describe the current set of methodologies that we call Agile. Unlike it's predecessors, Agile focuses on non-deterministic, complex systems where it’s difficult to start designing in the beginning. After years of successes and failures, software developers began seeing that upfront designs of these type of systems only lead to divergence, massive overhauls, and as a consequence produce overwhelming waste. The type of strategy that waterfall for example follows is primarily predictive. Client requirements for the system are determined and processed, and then different phases of design and implementation are strictly followed. Each phase is built on the previous and attempt to predict the future sections of the system that will be addressed in the next phase, until the application is ready to be implemented. This layered style involves traceable documentation and designing every aspect of the application in one long process. Agile’s core philosophy is to take the opposing face of the same coin and be adaptive instead of predictive. The same long, phased process that waterfall methodologies advocate are instead broken up into smaller, easier to handle chunks. 
+ 
+\tab Since software development typically takes one to several years, a development methodology must be able to organize and deal with time and money constraints. Agile deals with this problem by introducing iterations, and an iteration is a method of breaking time and features up into workable, adaptive slices. Each series of features or changes are called sprints, each iteration is meant to ‘move’ the systems development up one step closer to being completed. Each iteration is suppose to be independent enough to not worry about the next iteration, and thus not predict anything because change is actually encouraged in agile methodologies. Change is so expected that agile actually works at its best when the ideas of the application change after each iteration. This aspect makes agile incredibly effective in non-deterministic, complex systems where features are complex and need to be modified with each new addition.
+    
+\tab Large systems development requires collaboration between teams and departments in order to complete the product. This leads to another core aspect of Agile, which is the small team approach. By keeping teams tight and cross functional, communication is abundant and the project is easier to manage. Communication isn’t kept exclusive to teammates; clients or client domain representatives are welcomed to be ‘in the same room’ so that developers can ask questions and maintain convergence with the system that the clients desire. This communication keeps development adaptive and the teams on track with an accurate end product. This flexibility is desired, especially when a business is growing rapidly and requirements may change in a relatively short amount of time ~\cite{Ktata:2009:ADI:1557626.1557636}.
+    
+\tab  Requirements and constraints are likely to change over time, so a methodology must be able to cope with change over the years of it’s life cycle and maintenance beyond that. Iterations and constant adaptation leads to the final core philosophy of agile methodologies, evolutionary design ~\cite{Janus:2012:TCA:2237796.2237803}. Every iteration organizes and pushes the project up, and can be thought of as a generation. A generation is independent and is expected to be operational by itself, even if it doesn’t satisfy every feature and requirements. In fact, it isn’t suppose to. Every generation is built on the previous and expected to be better or expanded in some way, and changes can be made easily and quickly. 
+    
+\tab Procedural methodologies that have been used for years have attempted to cope with these problems in a variety of ways. Waterfall tries to predict and document for every aspect of the application that it can, and does a great job if the project is sequential and any after-the-fact changes are considered prohibitively costly. In a modern era of software development, new methodologies are required to deal with the growing significance of department collaboration, evolutionary design, and long development durations ~\cite{Ktata:2009:ADI:1557626.1557636}. Agile has been produced to manage these problems. 
+
 \section{Client Contact with Small, Cross-Functional Teams}
 
-Communication with the client during the life of software is critically important. It ensures that the product matches
-what the client is expecting. In the past, client requirements are constructed into a contract for the developer to create,
-but that allows for divergence if every detail is ambiguous.  Agile Methodologies that teams and a client representative
-create a relationship to stimulate communication.
+\tab Communication with the client during the life of software is critically important. It ensures that the product matches what the client is expecting. In the past, client requirements are constructed into a contract for the developer to create, but that allows for divergence if every detail is ambiguous. Developers couldn’t possibly have a complete knowledge of every client domain that they develop for. They couldn’t be expected to write code that satisfies every requirement perfectly as each detail requires a small amount of decision making to implement it, and that almost certainly results in slight divergence. Agile methodologies are designed so that the client is in the room with a small group of developers. This way, communication is constant between teammates and the client representative, and any detail or specific implementation can be asked and accurately chosen on the spot and not necessarily what the developer thinks is best.
 
 \subsection{Client in the Room}
-Agile Methodlogies advocate for someone with domain knowledge be present during development so that specific details and 
-questions can be answered immediately. Of course this would be hard and costly to maintain, so good communication 
-should be maintained in its stead.
+
+\tab The book in class talks about properties of a wicked problem. A wicked problem does not have a definite formulation, and there is no stopping rule. Every problem is unique and the solver has to be political in the right to implement it their way. This describes more and more problems in this age of software design because every problem is specific to the client and responsive in nature. Interaction with a huge number of variables is common; a website for example interacts with a diverse client set and must communicate with a number of servers or other clients through a variety of protocols. It would be impossible to program software that accounts for every determinable result- instead, software must be diverse and thought about enough to be intelligent in it’s own wicked way. 
+
+\tab Agile attempts to solve this problem by keeping abundant, free communication between developers and clients. The Agile Manifesto values customer collaboration over contract negotiation. This way the business domain that the software should work within is well known, as no one knows it better than the client, and developers are free to continue working knowing that they can accurately address each detail ~\cite{Janus:2012:TCA:2237796.2237803}. This characteristic of agile methodologies can be seen across the different subtypes. 
 
 \subsection{Small Teams and Scrums}
-Teams are kept small in order to maintain inter-team communication. Internal workings are easier to maintain and manage,
-as well as becoming more comfortable with whom a developer works with.
 
-\subsection{Scrums and Meetings}
-Scrums are quick, efficient meetings for
-teams to keep on track. Scrums are held often and typically report driven.
+\tab One of the great challenges of software engineering is that many software development projects require collaboration between multiple departments or teams. Waterfall attempts to address this problem with strict, copious documentation that traces and plans every single step that a developer takes. This allows for all that come after them to follow each decision and then work on that foundation. Of course this works to a certain extent, but pitfalls start to develop when a project starts to be crushed under it’s own weight ~\cite{Ktata:2009:ADI:1557626.1557636}. If multiple departments start to work on the same pieces of code and then diverge too much, then merging becomes prohibitively tedious. 
+
+\tab Agile methodologies attempt to solve this problem through small, cross functional teams that work to solve a very specific set of user stories over a carefully planned duration. These teams communication every day, and one specific methodology to be produced is called scrum. A scrum is a daily meeting between team members where each team member discusses what they’re working on and what they plan on doing. This way each team member is aware of what other team members are doing and inter-team divergence is kept to a minimum ~\cite{Cao:2010:MDA:1877725.1877730}. More direct team communication and less documentation is a hallmark of agile methodologies compared to more traditional methodologies ~\cite{Stettina:2011:NNE:2038476.2038509}. It's clear that face to face communication is more effective than the alternatives; scrum capitalizes on inter-team communication and potentially departmental collaboration ~\cite{Stettina:2011:NNE:2038476.2038509}.
 
 \section{Iterative Cycles}
 
-One strength of the Agile Methodology is how the software development life cycle is separated into easier to handle segments.
-Agile thinks of the time it takes to solve a specific feature or problem as an iteration, typically two weeks long, but
-is up to the production manager. This allows for structured development of the application, and breaks
-up the requirements from the user into smaller, easier to handle chunks. 
+\tab Another challenge presented by software development projects is the long development duration, typically ranging from one year to many. Projects have inherent scheduling and budget constraints and planning, scheduling and managing project work without a complete working domain knowledge can lead to wicked problems. This characteristic is actually a critical philosophy of waterfall methodologies. If a project is sequential, and almost predictive, then older software methodologies work fantastically. The straight forward sequence of phases greatly simplify a project and allow for planning and project status tracking. This approach falls short when business needs change midway through the project, which is inevitable if the planning and implementation take several years. 
+
+\tab Agile methodologies’ approach to this problem is to separate development into time slices called iterations. An iteration can range in duration from two weeks to a month, and are defined by a series of user stories or features. The development is carefully planned and calculated according to how long a developer thinks it will take, and they use that information to put an iteration together. 
 
 \subsection{Iterations} 
-The structured phases of feature and problem development of the application
 
-\subsection{Separation into Easier Phases} 
-Each iteration allows for the application to be developed in parts. This allows for flexible changes and
-extremely reactive development.~\cite{Cao:2010:MDA:1877725.1877730}
+\tab Iterations are basically incremental movements forward for a project. Each increment takes the form of a depth first movement rather than breadth first; the iteration is meant to develop a feature or user story, and not further every aspect of the software at the same time. This breaks the project up into easier to manage parts, and ensures there is always a working version of the software for the client to approve of ~\cite{Sletholt:2011:LRA:1985782.1985784}.
+
+\tab Iterations are relatively short in duration compared to a fast-paced business. The development team can maintain quick and adaptive reaction time to ever changing requirements by changing what they have in their next iteration, or even midway through. This keeps development flexible. An example of an agile methodology that specifically excels at this problem is Extreme Programming. Developers using this methodology should use common sense and best practices to the extreme to plan and develop a project with vague requirements. The overall architecture is suppose to be created after the first iteration, and then the rest of the project will be implemented in a production environment to quickly determine what must be added or removed.  
 
 \section{Evolutionary Development}
 
+\tab A major challenge of software engineering is the ability to change a system without causing problems to ripple throughout. The addition of a feature in the software could impact the rest of the system, and cause unforeseen problems. Traditional methodologies attempt to predict these problems and handle them beforehand, or not even deal with them because the software has been planned out from the start. 
+
+\tab A core philosophy of Agile is to always have working software. This usually occurs in generations, or rolling releases of the software. Each patch, or generation, comes with additional functionally while maintaining previous stability. This can be difficult when a business is watching the development, as is standard with agile methodologies, but the common motivations for each party (high revenue in this case) provide a good common ground ~\cite{Ktata:2009:ADI:1557626.1557636}. 
+
 \subsection{Test Driven Development}
-The use of Test Driven Development allows for an application that ensures that past work done on the application
-is still working with the addition of new code.
 
-\subsection{Increment} 
-Each iteration has a specific goal in mind. After each iteration is complete, the application is one
-step further, and considered incremented forward.
+\tab Test driven development is a widely adopted method of development, and is the accepted initiate action for agile methodologies. Creating a test not only focuses the developer on a specific aspect of the problem, but it is proven to aid in scientific programs implementation in an agile methodology context ~\cite{Sletholt:2011:LRA:1985782.1985784}. 
 
-\section{Past Methodologies}
-The Waterfall Methodology has been the primary methodology used for software development for decades, and is still used today.
-These methodologies are effective, but do not address major problems that lead to either failure of a software development
-project or shortcomings of an application.
+\tab Each generation of the program has to be able to be as functionally effective as it’s previous generation and then also complete a new user story. Test driven development forces the developer to pass previous tests as well as the new ones, ensuring that the program doesn’t break with the new addition. Testing easily quantifies the status of the project by showing what the program can do at any given time, up to the point of the tests.  
 
-\subsection{Phases Slow Reaction Time}
-Waterfall is typically held with several phases, one of which is the design phase, followed by implementation
-phase. These phases are essentially "closed door" meetings for developers from clients, and so divergence and thus
-failure to respond to change is a problem.
+\section{Conclusion}
 
-\subsection{Maintain Communication}
-Waterfall is not known to maintain strong client communication, and without constant updates and checks on progress,
-the project will inevitably diverge from what the client is asking for.
+\tab The motivation to develop software has never changed. Developing good, stable and dependable software is ultimately the end goal for any project, and a solid process and methodology can have a huge impact on achieving that goal. Agile methodology shouldn’t be thought of to be superior to traditional methodologies; it is simply different. It was thought of and constructed to solve a variety of different problems, including project communication, rapid response to variable requirements, and long development durations. Today’s software needs to be more interactive and thus is almost impossible to design with every determinable use case in mind. This puts sequential and predictive methodologies at a disadvantage. 
 
-\subsection{Evolution of the Product}
-Waterfall methodologies advises development to be carried out in phases, without clear benchmarks to be made. A common problem
-is that the project is developed all at once and changing subcomponents becomes difficult and overwhelms a project.
 
 \bibliographystyle{plain}
 \bibliography{master}
+
+\end{doublespace}
 
 
 \end{document}
